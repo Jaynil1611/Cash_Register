@@ -10,7 +10,7 @@ View the live demo of the application here 👉 [cash-register](https://jaynil-c
 
 ## Application View
 
-<!-- ![Image]() -->
+![Image](assets/Cash_Register.png)
 
 ## Technologies Used
 
