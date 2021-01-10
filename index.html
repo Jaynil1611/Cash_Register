@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<link href="./src/styles.css" rel="stylesheet" />
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>	
+	<p class="heading"> 💸 Cash Register 💰</p>
+	<div class="screen">
+		<form class="container-center">
+			<label class="container-fluid" for="bill">Enter your bill amount: </label>
+			<input class="container-fluid" type="number" placeholder="Enter bill" id="bill" name="bill" pattern="\d*"
+				required />
+			<br />
+			<label class="container-fluid" for="cash">Enter cash available: </label>
+			<input class="container-fluid" type="number" placeholder="Enter cash" id="cash" name="cash" pattern="\d*"
+				disabled required />
+			<br />
+			<input type="submit" class="button-submit" value="GET CURRENCY NOTES">
+		</form>
+		<div id="output-list">
+			<p> Returnable Amount </p>
+			<ol id="output" reversed class="list-non-bullet">
+			</ol>
+		</div>
+		<div></div>
+	</div>
+	<footer class="footer">
+		<ul>
+			<li class="list-item-inline"><a href="https://www.linkedin.com/in/jaynilgaglani/" class="link"><i
+						class='bx bxl-linkedin bx-md bx-border-circle '></i></a></li>
+			<li class="list-item-inline"><a href="https://twitter.com/Jaynil_Gaglani" class="link"><i
+						class='bx bxl-twitter bx-md bx-border-circle '></i></a></li>
+			<li class="list-item-inline"><a href="https://github.com/Jaynil1611" class="link"><i
+						class='bx bxl-github bx-md bx-border-circle '></i></a></li>
+			<li class="list-item-inline"><a href="https://www.instagram.com/jaynil_gaglani/" class="link"><i
+						class='bx bxl-instagram bx-md bx-border-circle '></i></a></li>
+			<li class="list-item-inline"><a href="mailto:g.jaynil2401@gmail.com" class="link"><i
+						class='bx bx-envelope bx-md bx-border-circle '></i></a></li>
+		</ul>
+		<p> <i class='bx bx-code-alt bx-sm' aria-hidden="true"> </i> with ❤️ by Jaynil Gaglani © 2021 <br />
+		</p>
+	</footer>
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
